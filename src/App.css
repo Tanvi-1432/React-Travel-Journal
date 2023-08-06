@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
+/* navigation */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navigation {
+  background-color: #f55a5a;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 7px;
+  height: 55px;
+  color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation img {
+  width: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation h1 {
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+/* main content */
+
+.main-content {
+  padding: 45px 40px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 36px; */
+}
+
+.main-content-container {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+
+}
+
+.location-detail {
+  max-width: 326px;
+}
+
+.location-image {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location img {
+  width: 14px;
+}
+
+.country {
+  font-size: 12.24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.maps {
+  font-size: 10.24px;
+  font-weight: 300;
+  margin-left: 12px;
+}
+
+.maps a {
+  color: #918E9B;
+}
+
+.maps a:hover {
+  text-decoration: none;
+}
+
+.place {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 5px 0 15px;
+}
+
+.time {
+  font-size: 10.24px;
+  font-weight: 700;
+}
+
+.place-detail {
+  font-size: 10.24px;
+  font-weight: 300;
+  margin-top: 9px;
+  line-height: 15.36px;
+}
+
+hr {
+  border: 1px solid;
+  color: #F5F5F5;
+  margin: 18px 0;
 }
